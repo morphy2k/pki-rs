@@ -61,4 +61,4 @@ p384 = { version = "0.13", features = [
 pki-rs = { path = ".", features = ["pem"] }
 rustls-pemfile = "1"
 tracing = "0.1"
-tracing-subscriber = "0.2"
+tracing-subscriber = "0.3"
