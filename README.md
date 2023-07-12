@@ -6,11 +6,15 @@ A (simple) X.509 certificate and trust chain validation library written in pure 
 
 ## Supported algorithms
 
-| Algorithm | Supported |
-| --------- | --------- |
-| RSA       | :x: |
-| ECDSA     | :heavy_check_mark: |
-| EdDSA     | :heavy_check_mark: |
+| Algorithm | Supported | Implementation |
+| --------- | --------- | -------------- |
+| RSA SHA-256 | :x: | |
+| RSA SHA-384 | :x: | |
+| RSA SHA-512 | :x: | |
+| ECDSA NIST P-256 | :heavy_check_mark: | [p256](https://github.com/RustCrypto/elliptic-curves/tree/master/p256) |
+| ECDSA NIST P-384 | :heavy_check_mark: | [p384](https://github.com/RustCrypto/elliptic-curves/tree/master/p384) |
+| ECDSA NIST P-521 | :x: | |
+| EdDSA     | :heavy_check_mark: | [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek) |
 
 ## Motivation
 
