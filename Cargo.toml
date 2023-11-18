@@ -33,7 +33,7 @@ signature = { version = ">=2.0, <2.3", features = ["std"], optional = true }
 tracing = { version = "0.1", features = ["std"], default-features = false }
 
 # Ed25519 signature
-ed25519-dalek = { version = "2.0.0-rc.3", features = [
+ed25519-dalek = { version = "2", features = [
     "std",
     "zeroize",
     "asm",
