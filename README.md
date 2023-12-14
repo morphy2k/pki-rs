@@ -2,7 +2,8 @@
 
 A (simple) X.509 certificate and trust chain validation library written in pure Rust and  built on [RustCrypto](https://github.com/RustCrypto) crates.
 
-:warning: **This is work in progress and not ready for production use. Use at your own risk!**
+> [!WARNING]
+> This is work in progress and not ready for production use. Use at your own risk!
 
 ## Supported algorithms
 
@@ -11,10 +12,10 @@ A (simple) X.509 certificate and trust chain validation library written in pure 
 | RSA SHA-256 | :x: | |
 | RSA SHA-384 | :x: | |
 | RSA SHA-512 | :x: | |
-| ECDSA NIST P-256 | :heavy_check_mark: | [p256](https://github.com/RustCrypto/elliptic-curves/tree/master/p256) |
-| ECDSA NIST P-384 | :heavy_check_mark: | [p384](https://github.com/RustCrypto/elliptic-curves/tree/master/p384) |
+| ECDSA NIST P-256 | ✅ | [p256](https://github.com/RustCrypto/elliptic-curves/tree/master/p256) |
+| ECDSA NIST P-384 | ✅ | [p384](https://github.com/RustCrypto/elliptic-curves/tree/master/p384) |
 | ECDSA NIST P-521 | :x: | |
-| EdDSA     | :heavy_check_mark: | [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek) |
+| EdDSA     | ✅ | [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek) |
 
 ## Motivation
 
