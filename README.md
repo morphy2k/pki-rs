@@ -15,7 +15,7 @@ A (simple) X.509 certificate and trust chain validation library written in pure 
 | ECDSA NIST P-256 | ✅ | [p256](https://github.com/RustCrypto/elliptic-curves/tree/master/p256) |
 | ECDSA NIST P-384 | ✅ | [p384](https://github.com/RustCrypto/elliptic-curves/tree/master/p384) |
 | ECDSA NIST P-521 | :x: | |
-| EdDSA     | ✅ | [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek) |
+| EdDSA     | ✅ | [ed25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) |
 
 ## Motivation
 
